@@ -23,23 +23,24 @@
   text-align: center;
  }
  .block{
+  border-left :4px solid grey;
 
  }
 
  .block p:nth-child(1){
   font-weight: bolder;
   background-color: antiquewhite;
-  padding:16px 0 ;
+  padding:16px 16px ;
  }
 
  .block p:nth-child(2){
   font-weight: regular;
   font-style: italic;
-  padding:16px 0 ;
+  padding:16px 16px;
  }
 
  .container{
-  border: 1px solid grey;
+
   width: 500px;
   margin: 100px auto;
  }
